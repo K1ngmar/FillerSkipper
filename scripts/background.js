@@ -1,4 +1,4 @@
-// console.log('im here!');
+// console.log('im here!, eyyyy lmaoooooo');
 chrome.tabs.onActivated.addListener(tab => {
 	chrome.tabs.get(tab.tabId, current_tab_info => {
 		chrome.tabs.onUpdated.addListener(function (changeInfo, tab) {
