@@ -5,4 +5,4 @@ chrome.tabs.onUpdated.addListener( function (tabId, changeInfo, tab) {
 			chrome.tabs.executeScript(null, {file: './scripts/foreground.js'}, () => console.log('Foreground script injected'))
 		}
 	}
-})			
+})	
