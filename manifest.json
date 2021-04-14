@@ -1,3 +1,4 @@
+
 {
 	"name": "FillerSkipper",
 	"description": "Skip those darn filler episodes (｡•̀ᴗ-)✧",
@@ -19,5 +20,8 @@
 	"permissions": [
 		"tabs",
 		"https://4anime.to/*"
+	],
+	"web_accessible_resources": [
+		"./data/fillers.json"
 	]
 }
