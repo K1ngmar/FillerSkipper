@@ -18,7 +18,6 @@
 	},
 	"permissions": [
 		"tabs",
-		"https://4anime.to/*",
-		"https://www.animefillerlist.com/*"
+		"https://4anime.to/*"
 	]
 }
